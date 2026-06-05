@@ -6,7 +6,7 @@ toolchain go1.25.10
 
 require (
 	github.com/devfile/library/v2 v2.2.1-0.20230418160146-e75481b7eebd
-	github.com/konflux-ci/application-api v0.0.0-20260529131129-a9594acdc104
+	github.com/konflux-ci/application-api dd8c9b1a64c2
 	github.com/konflux-ci/build-service v0.0.0-20240611083846-2dee6cfe6fe4
 	github.com/konflux-ci/e2e-tests v0.0.0-20260521070148-51052ba6ac77
 	github.com/onsi/ginkgo/v2 v2.28.0
@@ -34,9 +34,9 @@ require (
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cloudflare/circl v1.6.3 // indirect
-	github.com/codeready-toolchain/api v0.0.0-20231217224957-34f7cb3fcbf7 // indirect
-	github.com/codeready-toolchain/toolchain-common v0.0.0-20220523142428-2558e76260fb // indirect
-	github.com/codeready-toolchain/toolchain-e2e v0.0.0-20220525131508-60876bfb99d3 // indirect
+	github.com/codeready-toolchain/api cfa3dd9db9cc // indirect
+	github.com/codeready-toolchain/toolchain-common 6db0c02f4506 // indirect
+	github.com/codeready-toolchain/toolchain-e2e 13a810f73979 // indirect
 	github.com/conforma/crds/api v0.1.7 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.18.2 // indirect
 	github.com/containerd/typeurl/v2 v2.2.2 // indirect
@@ -88,7 +88,7 @@ require (
 	github.com/google/go-github/v66 v66.0.0 // indirect
 	github.com/google/go-github/v75 v75.0.0 // indirect
 	github.com/google/go-querystring v1.2.0 // indirect
-	github.com/google/pprof v0.0.0-20260115054156-294ebfa9ad83 // indirect
+	github.com/google/pprof 7023385849c0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.6 // indirect
@@ -102,10 +102,10 @@ require (
 	github.com/kevinburke/ssh_config v1.4.0 // indirect
 	github.com/klauspost/compress v1.18.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
-	github.com/konflux-ci/image-controller v0.0.0-20240530145826-3296e4996f6f // indirect
-	github.com/konflux-ci/integration-service v0.0.0-20260327093127-2b0e36d45a91 // indirect
-	github.com/konflux-ci/operator-toolkit v0.0.0-20251118152634-b4f41f073069 // indirect
-	github.com/konflux-ci/release-service v0.0.0-20260127184035-c36c56a3c440 // indirect
+	github.com/konflux-ci/image-controller b31f86d8dce9 // indirect
+	github.com/konflux-ci/integration-service 3d19241c0a21 // indirect
+	github.com/konflux-ci/operator-toolkit d4e398191a68 // indirect
+	github.com/konflux-ci/release-service d4356087b819 // indirect
 	github.com/magefile/mage v1.14.0 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -117,9 +117,9 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/openshift-pipelines/pipelines-as-code v0.34.0 // indirect
-	github.com/openshift/api v0.0.0-20260112161841-5b45879294d5 // indirect
-	github.com/openshift/client-go v0.0.0-20260108185524-48f4ccfc4e13 // indirect
-	github.com/openshift/library-go v0.0.0-20220525173854-9b950a41acdc // indirect
+	github.com/openshift/api 1194f4c62539 // indirect
+	github.com/openshift/client-go 6892dc3e1ffc // indirect
+	github.com/openshift/library-go 0710912e9458 // indirect
 	github.com/operator-framework/operator-lib v0.19.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pjbgf/sha1cd v0.5.0 // indirect
@@ -130,7 +130,7 @@ require (
 	github.com/prometheus/common v0.67.5 // indirect
 	github.com/prometheus/procfs v0.19.2 // indirect
 	github.com/prometheus/statsd_exporter v0.28.0 // indirect
-	github.com/redhat-appstudio/jvm-build-service v0.0.0-20240126122210-0e2ee7e2e5b0 // indirect
+	github.com/redhat-appstudio/jvm-build-service b47170d413c5 // indirect
 	github.com/santhosh-tekuri/jsonschema/v5 v5.3.1 // indirect
 	github.com/sergi/go-diff v1.4.0 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
@@ -149,7 +149,7 @@ require (
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
-	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
+	golang.org/x/exp 055de637280b // indirect
 	golang.org/x/mod v0.33.0 // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/oauth2 v0.35.0 // indirect
@@ -161,8 +161,8 @@ require (
 	golang.org/x/tools v0.42.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	google.golang.org/api v0.262.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260128011058-8636f8732409 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260128011058-8636f8732409 // indirect
+	google.golang.org/genproto/googleapis/api 3dc84a4a5aaa // indirect
+	google.golang.org/genproto/googleapis/rpc 3dc84a4a5aaa // indirect
 	google.golang.org/grpc v1.79.3 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
@@ -174,9 +174,9 @@ require (
 	k8s.io/client-go v11.0.0+incompatible // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20260127142750-a19766b6e2d4 // indirect
-	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
-	knative.dev/pkg v0.0.0-20250424013628-d5e74d29daa3 // indirect
+	k8s.io/kube-openapi 865597e52e25 // indirect
+	k8s.io/utils ff6756f316d2 // indirect
+	knative.dev/pkg ac97e43f6622 // indirect
 	oras.land/oras-go/v2 v2.5.0 // indirect
 	sigs.k8s.io/controller-runtime v0.22.4 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
